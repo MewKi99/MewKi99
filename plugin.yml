@@ -1,0 +1,13 @@
+version: 1.0
+main: jic\main
+api: [3.0.0, 4.0.0, 5.0.0]
+name: testUI
+
+commands:
+  test:
+    description: Plugin Tutorial
+    permission: test.use
+
+permissions:
+  test.use:
+    default: true
